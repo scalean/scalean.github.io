@@ -132,7 +132,12 @@ p {
 
 img {
   width: 100%;
-  overflow: hidden;
+  overflow: hidden;  
+}
+
+.logo-img {
+  padding-left: 2%;
+  overflow: hidden;  
 }
 
 /* 
