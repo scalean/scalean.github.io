@@ -1,4 +1,2 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://scalean.io/sitemap.xml
+Disallow:
