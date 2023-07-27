@@ -149,7 +149,6 @@ p {
 }
 
 .img-logo {
-  padding-left: 15%;
   overflow: hidden;  
 }
 
@@ -658,6 +657,36 @@ header
 
 .header-area.header-sticky .nav li a.active {
   color: #4b8ef1;
+}
+
+@media (max-width: 1550px) {	
+  .img-logo {
+	padding-left: 15%;
+	overflow: hidden;  
+ }
+}
+
+@media (max-width: 1450px) {	
+  .img-logo {
+	padding-left: 90px;
+	overflow: hidden;  
+ }
+}
+
+ @media (max-width: 1250px) {	
+  .img-logo {
+	padding-left: 70px;
+	overflow: hidden;  
+ }
+ }
+
+  .header-area .main-nav .nav li {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .header-area .main-nav:before {
+    display: none;
+  }
 }
 
 @media (max-width: 1200px) {
